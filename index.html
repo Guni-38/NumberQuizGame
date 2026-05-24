@@ -6,9 +6,9 @@
 <title>NUMBER QUIZ SURVIVAL</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none}
-body{margin:0;font-family:system-ui,sans-serif;color:#fff;min-height:100vh;overflow:hidden;background:radial-gradient(circle at top,rgba(0,255,255,.25),transparent 35%),linear-gradient(135deg,#060018,#050816 55%,#12001f)}
+body{margin:0;font-family:system-ui,sans-serif;color:#fff;min-height:100dvh;overflow:hidden;background:radial-gradient(circle at top,rgba(0,255,255,.25),transparent 35%),linear-gradient(135deg,#060018,#050816 55%,#12001f)}
 body::before{content:"";position:fixed;inset:0;background:linear-gradient(rgba(0,255,255,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(255,0,255,.08) 1px,transparent 1px);background-size:28px 28px;pointer-events:none}
-.screen{width:100vw;height:100vh;padding:12px;display:flex;flex-direction:column;position:relative;z-index:1}
+.screen{width:100vw;height:100dvh;padding:12px;display:flex;flex-direction:column;position:relative;z-index:1}
 .hidden{display:none}
 .title{text-align:center;margin-top:34px;font-size:30px;font-weight:900;color:#00ffff;text-shadow:0 0 8px #00ffff,3px 3px 0 #ff00cc;letter-spacing:2px}
 .subtitle{margin-top:16px;padding:14px;color:#dff;line-height:1.6;background:rgba(0,20,40,.78);border:2px solid #00ffff;box-shadow:0 0 16px rgba(0,255,255,.45),inset 0 0 16px rgba(255,0,255,.16);font-size:14px}
@@ -28,9 +28,9 @@ button:active{transform:scale(.96)}
 .lifeText{display:flex;justify-content:space-between;font-size:15px;color:#00ffff;font-weight:bold}
 .lifeFrame{width:100%;height:18px;border:2px solid #00ffff;border-radius:12px;background:#080812;overflow:hidden}
 .lifeBar{height:100%;width:100%;background:#00ff66;transition:width .25s,background .25s}
-.questionBox{flex:1;min-height:0;margin:12px 0;padding:14px;background:rgba(0,10,25,.84);border:2px solid #00ffff;border-radius:18px;box-shadow:0 0 18px rgba(0,255,255,.42),inset 0 0 20px rgba(255,0,255,.12);display:flex;flex-direction:column;justify-content:center}
+.questionBox{flex:1;min-height:0;margin:8px 0;padding:14px;background:rgba(0,10,25,.84);border:2px solid #00ffff;border-radius:18px;box-shadow:0 0 18px rgba(0,255,255,.42),inset 0 0 20px rgba(255,0,255,.12);display:flex;flex-direction:column;justify-content:center}
 .questionNo{color:#ff4dff;margin-bottom:10px;font-size:13px;font-weight:bold}
-.questionText{font-size:20px;line-height:1.5}
+.questionText{font-size:18px;line-height:1.5}
 .hintText{max-height:72px;overflow-y:auto;margin-top:10px;color:#ffff66;font-weight:bold;line-height:1.35;font-size:14px}
 .answerDisplay{margin-bottom:7px;padding:6px;text-align:center;font-size:34px;font-weight:900;color:#00ffff;background:rgba(0,10,25,.88);border:2px solid #ff00cc;border-radius:14px;box-shadow:0 0 14px rgba(255,0,204,.45),inset 0 0 12px rgba(0,255,255,.15);min-height:52px;text-shadow:0 0 10px #00ffff}
 .items{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:7px}
@@ -244,7 +244,7 @@ const questions = [
 { q: "史上初めて人類による月面着陸を達成した宇宙船はアポロ何号？", a: 11 },
 { q: "NASAによるアポロ計画で, 月面に降り立った宇宙飛行士は全部で何人？", a: 12 },
 { q: "2015年の国連サミットで採択されたSDGsにはいくつのゴールが設定されている？", a: 17 },
-{ q: "レオナルド・ダ・ヴィンチの絵画『最後の晩餐』に描かれている人の数は全部で何人？", a: 13 },
+{ q: "レオナルド・ダ・ヴィンチの絵画『最後の晩餐』に描かれている人の数はイエスを含めて全部で何人？", a: 13 },
 { q: "ミレーの絵画『落穂拾い』に描かれている人の数は全部で何人？", a: 3 },
 { q: "日本でもっとも市の数が多い都道府県である埼玉県にある市の数は？", a: 40 },
 { q: "バスケットボールのルールで, 攻撃チームはボールを保持してから何秒以内にシュートを行わなければならない？", a: 24 },
